@@ -1,0 +1,21 @@
+.admission-main{
+    height: 50%;
+    min-height: 70vh;
+    min-width: (100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: black; */
+}
+
+.admission{
+    /* background-color: green; */
+}
+.admission a{
+    font-size: 1rem;
+    text-align: center;
+}
+
+

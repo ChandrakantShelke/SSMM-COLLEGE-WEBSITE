@@ -1,0 +1,28 @@
+/* placementCellStyles.css */
+
+.placement-cell-container {
+    text-align: center; /* Center the content horizontally */
+    width: 70vw;
+  }
+
+.photos a{
+    height: 70px;
+    background-color: orange;
+    text-align: center;
+  }
+  
+  .photos {
+    margin-top: 20px; /* Add some margin at the top */
+    /* margin-left: 10rem; */
+  }
+
+  
+  /* Optional: Style the title */
+  .placement-cell-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Black color */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    margin-top: 4rem;
+  }
+  

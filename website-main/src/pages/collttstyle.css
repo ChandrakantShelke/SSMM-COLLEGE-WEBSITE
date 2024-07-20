@@ -1,0 +1,80 @@
+/* collttstyle.css */
+
+.container-ctt {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center;
+  /* background-color: black; */
+  border: 1px solid black;
+  margin: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: .7rem;
+  background-color: grey;
+}
+
+.title {
+  margin-bottom: .8rem; /* Add margin between title and menu */
+  color: black;
+} 
+
+.menu-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  max-width: 40rem;
+}
+
+.menu-item {
+  margin: 0 10px; /* Add spacing around menu items */
+}
+
+.dropdown {
+  margin: 20px;
+}
+
+.select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.select option {
+  padding: 10px;
+}
+
+.go-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.go-button:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dropdown {
+    margin: 10px 0;
+  }
+
+  .select {
+    width: 100%;
+  }
+}

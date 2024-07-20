@@ -1,0 +1,24 @@
+.admain{
+    
+}
+
+.admain td{
+    padding: 1.5rem;
+    border: 1px solid transparent;
+}
+
+.admain input{
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.admain select{
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.admain table{
+    border: 1p solid black;
+}
+

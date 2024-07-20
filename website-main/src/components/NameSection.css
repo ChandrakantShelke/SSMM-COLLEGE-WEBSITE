@@ -1,0 +1,154 @@
+.namesection{
+    display: grid;
+    
+    justify-content: space-around;
+    /* background-color: white; */
+    /* width: calc(100% - 7rem); */
+    height: 80vh;
+    /* margin: 1rem; */
+    /* margin: 0 auto; */
+    /* margin-top: 22vh; */
+    padding: 2rem;
+    background-color: grey;
+    /* flex-wrap: wrap; */
+}
+
+.namecard, .behind{
+    /* position: relative; */
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 133, 2);
+    /* position: relative; */
+    /* padding: 2rem; */
+    position: relative;
+    border-radius: 20px;
+    width: 20rem;
+    height: 18rem;
+    /* flex: .2; */
+    text-align: center;
+    line-height: 2rem;
+    /* position: absolute; */
+    perspective: 1000px;    
+    /* backface-visibility: hidden; */
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+}
+
+.behind{
+    background-color: rgb(198, 133, 2);
+    color: black;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    transition: all 1s ease;
+    transform: rotateY(180deg);
+    /* backface-visibility: hidden; */
+}
+
+
+.front, .back{
+    position: absolute;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    backface-visibility: hidden;
+}
+
+.back{
+    /* background-color: yellow; */
+    transform: rotateY(180deg);
+}
+
+
+
+.back{
+    /* transform: rotateY(180deg); */
+}
+
+
+.nameimage{
+    background-color: black;
+    max-width: 10rem;
+    text-overflow: clip;
+    overflow-wrap: break-word;
+}
+
+
+
+
+
+.name{
+    background-color: grey;
+    color: black;
+    /* margin: .5rem; */
+    width: 97.9%;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    /* background-image: url('https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30198.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708732800&semt=ais'); */
+    /* background-image: url('https://firebasestorage.googleapis.com/v0/b/egdb-f23fd.appspot.com/o/foto1.jpeg?alt=media&token=80f490b4-83dc-45e7-b117-ddb7c25c7f64'); */
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/egdb-f23fd.appspot.com/o/try%20this.jpg?alt=media&token=46f0c00a-ffa1-47cf-bc7c-ee97540e3430');
+    object-fit: fill;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* border-radius: 10px; */
+    /* color: rgba(0, 0, 0, 0.567); */
+}
+
+.namecont{
+    font-size: 1.7rem;
+    /* width: 50%; */
+    padding: 2rem;
+    color: #800000cf;
+    letter-spacing: 2px;
+}
+
+
+
+.bod{
+    display: flex;
+    /* margin: 1rem; */
+    width: 75%;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    overflow: visible;
+}
+
+
+
+
+@media screen and (max-width : 767px) {
+    .namesection{
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }    
+    .front, .back{
+        font-size: 1rem;
+        padding: .5rem;
+    }
+
+    .name{
+        background-color: black;
+        width: 90%;
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/egdb-f23fd.appspot.com/o/foto2.jpeg?alt=media&token=7fc98a2a-1fe3-4514-84da-20e08962e94b');
+        /* background-image: url(''); */
+        object-fit: contain;
+    }
+
+    .namecont{
+        width: 100%;
+        color: black;
+        font-size: 1.3rem;
+    }
+}

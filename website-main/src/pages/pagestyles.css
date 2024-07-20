@@ -1,0 +1,85 @@
+
+
+.add-btn{
+    background-color: green;
+    color: black;
+    transition: .2s all ease;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.add-btn:hover{
+    background-color: black;
+    /* border: 1px solid green; */
+    color: green;
+    transition: .2s all ease;
+}
+
+
+.get-result-btn{
+    padding: 1rem; 
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 7px;
+    color: black;
+    background-color: green;
+    transition: .2s ease all;
+}
+.get-result-btn:hover{
+    background-color: green;
+    border: 2px solid green;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: .2s ease all;
+}
+.get-result-btn:active{
+    padding: .5rem;
+    transition: .2s ease all;
+}
+
+
+
+#result-set{
+    padding: .8rem;
+    border-radius: 8px;
+}
+
+
+option{
+    font-size: .8rem;
+    /* margin: 2rem; */
+}
+
+
+.print-result{
+    background-color: white;
+    margin-top: 2rem;
+    width: fit-content;
+    color: black; 
+    padding: 1rem; 
+    border-radius: 10px;
+    transition: .2s ease all;
+}
+
+.print-result:hover{
+    background-color: black;
+    color : white;
+    border: 1px solid white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: .2s ease all;
+}
+
+.print-result:active{
+    padding: .5rem;
+    transition: .5s ease all;
+}
+
+.resclass{
+    color: white;
+}

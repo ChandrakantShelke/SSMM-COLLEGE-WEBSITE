@@ -1,0 +1,68 @@
+/* dept.css */
+
+/* Main menu styling */
+.college-webpage {
+  font-family: Arial, sans-serif;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.c1{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu-container {
+  display: flex; /* Arrange menu items horizontally */
+  justify-content: space-around; /* Add space between menu items */
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  margin: 0 100px; 
+  text-align: center;
+  /* margin: 2rem; */
+}
+
+.menu-option {
+  margin-bottom: 3rem;
+}
+
+.college-webpage h1 {
+  /* color: #333; */
+  color: white;
+}
+
+/* Submenu styling */
+.submenu {
+  display: flex; /* Arrange submenu horizontally */
+  align-items: center; /* Center items vertically */
+  flex-direction: column;
+}
+
+.submenu li {
+  margin-right: 10px; /* Add spacing between submenu items */
+}
+
+.submenu a {
+  color: rgb(1, 1, 53);
+  
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+}
+
+.submenu select{
+  padding: 1rem;
+  border-radius: 10px;
+}

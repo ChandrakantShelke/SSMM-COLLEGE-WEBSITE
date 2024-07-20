@@ -1,0 +1,51 @@
+.calendar-container {
+    text-align: top;
+  }
+  .calendar-container2 {
+    text-align: center;
+  }
+  .c3{
+    height: 70px;
+    background-color: orange;
+    padding: 1rem;
+    
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .c2{
+    height: 40px;
+    width: 500px;
+    background-color: #1d3557;
+  
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+   color: white;
+  }
+.c1{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+  justify-content: center;
+  align-items: center;
+
+  
+}
+  a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
